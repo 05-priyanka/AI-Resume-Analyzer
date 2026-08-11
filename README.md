@@ -37,3 +37,31 @@ AI-Resume-Analyzer/
 ├── utils.py
 ├── requirements.txt
 └── README.md
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/05-priyanka/AI-Resume-Analyzer.git
+cd AI-Resume-Analyzer
+
+### 2. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+
+### 3. Run the application
+
+```bash
+python -m streamlit run app.py
+
+## 💡 Usage
+
+1. Open the application in your browser.
+2. Enter your name.
+3. Upload your resume in PDF format.
+4. Enter a job description.
+5. Click the analyze button.
+6. Review your resume score, matching skills, missing skills, and recommendations.
+7. Download the complete analysis report.
